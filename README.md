@@ -13,7 +13,7 @@
 
 下载RTX后，如下配置服务器设置，账号和密码可以从人事处获得。
 
-![image](http://img1.ph.126.net/ktxOiZlvZdClVIV9SbBw6A==/6632664256584180067.png)
+![image](https://github.com/dingangang/web-/blob/master/RTX%E8%AE%BE%E7%BD%AE.png?raw=true)
 
 ### 公司邮箱
 

@@ -13,7 +13,7 @@
 
 下载RTX后，如下配置服务器设置，账号和密码可以从人事处获得。
 
-![image](https://github.com/dingangang/web-/blob/master/RTX%E8%AE%BE%E7%BD%AE.png?raw=true)
+![image](https://github.com/dingangang/web-/blob/master/RTX%E8%AE%BE%E7%BD%AE.jpg?raw=true)
 
 ### 公司邮箱
 
@@ -21,7 +21,7 @@
 
 下载安装以后，服务器配置如下图，邮箱的账号密码可以从人事处获取。
 
-![image](https://github.com/dingangang/web-/blob/master/%E9%82%AE%E7%AE%B1%E8%AE%BE%E7%BD%AE.png?raw=true)
+![image](https://github.com/dingangang/web-/blob/master/%E9%82%AE%E7%AE%B1%E8%AE%BE%E7%BD%AE.jpg?raw=true)
 
 
 
@@ -64,7 +64,7 @@ SVN的账号和密码在入职后咨询组长刘洁进行申请获取。
     
 复制上方链接，在本地空白文件夹中右键菜单中选择 SVN Checkout 命令。确定后即可将服务器上的内容下载到本地。对“员工总结-UI-丁昂昂.docx”进行了修改并保存。新增了文件“新增文件.docx”。
 
-![image](https://github.com/dingangang/web-/blob/master/SVN%E7%A4%BA%E4%BE%8B.png?raw=true)
+![image](https://github.com/dingangang/web-/blob/master/SVN%E7%A4%BA%E4%BE%8B.jpg?raw=true)
 
 #### 文件状态
 
@@ -76,7 +76,7 @@ SVN的账号和密码在入职后咨询组长刘洁进行申请获取。
 
 本地修改完成后，在文件夹右键菜单中选择 SVN Commit 
 
-![image](https://github.com/dingangang/web-/blob/master/SVN%E7%A4%BA%E4%BE%8B1.png?raw=true)
+![image](https://github.com/dingangang/web-/blob/master/SVN%E7%A4%BA%E4%BE%8B1.jpg?raw=true)
 
 修改过的文件和新增的文件出现在提交列表中，修改的文件已经自动勾选，新增的文件没有被勾选。
 
@@ -140,7 +140,7 @@ PxCook是一款辅助用的图形信息查看软件。运用PxCook可以很快�
 
 在自己本地合适的磁盘，建立对应的文件夹后，可以将上方目录通过SVN Checout 到本地。
 
-![image](http://img0.ph.126.net/EzX_pbpcfbwOQlula9CP1w==/6597577741030721847.png)
+![image](http://img0.ph.126.net/EzX_pbpcfbwOQlula9CP1w==/6597577741030721847.jpg)
 
 
 ### 项目交付目录
@@ -161,7 +161,7 @@ PxCook是一款辅助用的图形信息查看软件。运用PxCook可以很快�
                         |- 01.高保真     存放UI设计人员提供的图片、图标和规范
                         |- 02.HTML       web工程师提交的文件
 
-![image](https://github.com/dingangang/web-/blob/master/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3.png?raw=true)
+![image](https://github.com/dingangang/web-/blob/master/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3.jpg?raw=true)
 
 通常在SVN Repo Browser 中选取02.HTML，复制URL后在本地建立好的同结构文件夹中进行SVN Checkout。01.高保真是UI设计人员提供的高保真图片和切图。一般也会通过SVN Checkout 到本地。
 
@@ -191,22 +191,22 @@ PxCook是一款辅助用的图形信息查看软件。运用PxCook可以很快�
 
 低保真文件中描述了对应的一些功能需求，通常大的项目最后的实现效果和低保真会有一些不同，但是大致的功能是一致的。下图是一个低保真的示例，这个低保真是现有的项目上一些需要改变的需求。新项目的话低保真样式更简单一些。
 
-![image](https://github.com/dingangang/web-/blob/master/%E4%BD%8E%E4%BF%9D%E7%9C%9F%E7%A4%BA%E4%BE%8B.png?raw=true)
+![image](https://github.com/dingangang/web-/blob/master/%E4%BD%8E%E4%BF%9D%E7%9C%9F%E7%A4%BA%E4%BE%8B.jpg?raw=true)
 
 
 ### 高保真文件
 
 > UI设计人员制造的最后想要呈现在用户面前的样本。
 
-高保真文件通常格式为png或jpeg。是希望最后用户能看到的界面样本。
+高保真文件通常格式为jpg或jpeg。是希望最后用户能看到的界面样本。
 
 **web工程师最主要的任务就是将高保真文件所描述的界面转化为HTML、CSS和JavaScript共同构成的前端页面。**
 
-![image](https://github.com/dingangang/web-/blob/master/%E9%AB%98%E4%BF%9D%E7%9C%9F%E7%A4%BA%E4%BE%8B.png?raw=true)
+![image](https://github.com/dingangang/web-/blob/master/%E9%AB%98%E4%BF%9D%E7%9C%9F%E7%A4%BA%E4%BE%8B.jpg?raw=true)
 
 下方的图是该系统颜色设计规范。系统中的对应元素的配色都要按照规范来进行，可以的话也可以引入Sass,后续有颜色调整的情况也会方便一些。
 
-![image](https://github.com/dingangang/web-/blob/master/%E9%AB%98%E4%BF%9D%E7%9C%9F%E7%A4%BA%E4%BE%8B2.png?raw=true)
+![image](https://github.com/dingangang/web-/blob/master/%E9%AB%98%E4%BF%9D%E7%9C%9F%E7%A4%BA%E4%BE%8B2.jpg?raw=true)
 
 
 ### 本地工程简介
@@ -229,7 +229,7 @@ PxCook是一款辅助用的图形信息查看软件。运用PxCook可以很快�
 
 示例项目对照：
 
-![image](https://github.com/dingangang/web-/blob/master/%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84%E7%A4%BA%E4%BE%8B.png?raw=true)
+![image](https://github.com/dingangang/web-/blob/master/%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84%E7%A4%BA%E4%BE%8B.jpg?raw=true)
 
 这些项目中编辑完后就直接覆盖提交到对应的交付目录了。有些文件是不用上传到SVN上去的，如上图中的.idea文件是WebStrom生成的配置文件，可以选定后右键TortiseSVN->Add to ignore list。这样以后的SVN Commit中都不会包含此文件夹。
 
@@ -461,7 +461,7 @@ dingangang进行Commit操作的时候会看到错误提示：
 
 **提示开发者该文件已经过期，需要先更新文件**
 
-![image](https://github.com/dingangang/web-/blob/master/%E6%96%87%E4%BB%B6%E8%BF%87%E6%9C%9F.png?raw=true)
+![image](https://github.com/dingangang/web-/blob/master/%E6%96%87%E4%BB%B6%E8%BF%87%E6%9C%9F.jpg?raw=true)
 
 执行Update，SVN会自动把其他用户修改的操作更新到该文件中（**前提是不同用户修改的位置不同**），并且**保存当前用户修改的部分**。
 

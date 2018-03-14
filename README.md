@@ -140,7 +140,7 @@ PxCook是一款辅助用的图形信息查看软件。运用PxCook可以很快�
 
 在自己本地合适的磁盘，建立对应的文件夹后，可以将上方目录通过SVN Checout 到本地。
 
-![image](http://img0.ph.126.net/EzX_pbpcfbwOQlula9CP1w==/6597577741030721847.jpg)
+![image](https://github.com/dingangang/web-/blob/master/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E7%9B%AE%E5%BD%95.jpg?raw=true)
 
 
 ### 项目交付目录

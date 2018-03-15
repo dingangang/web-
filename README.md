@@ -91,7 +91,7 @@ SVN的账号和密码在入职后咨询组长刘洁进行申请获取。
     【单号】JIRA中可以对应的单号，非改单的情况可以用XXX-000来代替
     
     【描述】描述解决的问题
-	
+    
 
 
 ### IDE
@@ -163,19 +163,9 @@ PxCook是一款辅助用的图形信息查看软件。运用PxCook可以很快�
 
 ![image](https://github.com/dingangang/web-/blob/master/%E9%A1%B9%E7%9B%AE%E6%96%87%E6%A1%A3.jpg?raw=true)
 
-![image](https://github.com/dingangang/web-/blob/master/document.jpg?raw=true)
-
 通常在SVN Repo Browser 中选取02.HTML，复制URL后在本地建立好的同结构文件夹中进行SVN Checkout。01.高保真是UI设计人员提供的高保真图片和切图。一般也会通过SVN Checkout 到本地。
 
 # 开发流程
-
-开发流程总览
-
-*http://192.168.102.222:9888/pages/viewpage.action?pageId=5768654*
-
-需要出HTML的前端开发流程
-
-![image](https://github.com/dingangang/web-/blob/master/flow.jpg?raw=true)
 
 ### 阅读需求文档
 
@@ -184,8 +174,6 @@ PxCook是一款辅助用的图形信息查看软件。运用PxCook可以很快�
 *http://192.168.102.222:9888/pages/viewpage.action?pageId=1179780*
 
 点击链接进去需求文档空间，根据SE提供的地址打开对应的需求文档。
-
-![image](https://github.com/dingangang/web-/blob/master/confluence.jpg?raw=true)
 
 需求文档的内容要仔细查看。对应的图片和一些逻辑也要仔细分析，特别是针对样式的部分要注意，一些前端可以完成的交互性的需求也需要在交付的文件中完成。
 
@@ -221,7 +209,7 @@ PxCook是一款辅助用的图形信息查看软件。运用PxCook可以很快�
 ![image](https://github.com/dingangang/web-/blob/master/%E9%AB%98%E4%BF%9D%E7%9C%9F%E7%A4%BA%E4%BE%8B2.jpg?raw=true)
 
 
-### 本地工程简介
+## 本地工程简介
 
 ### 项目基础版本(非gulp)
 
@@ -417,8 +405,6 @@ gulp的引入目的在于提高前端代码的编写效率（注：本环境基�
 
 示例： *http://192.168.102.222:8888/browse/EBAG-78647*
 
-![image](https://github.com/dingangang/web-/blob/master/jira.jpg?raw=true)
-
 EBAG-78647是该单对应的 **单号** 。
 
 **问题详情** 中有版本信息和环境信息。
@@ -505,74 +491,3 @@ dingangang执行Update以后，会发现main.css已经变成：
     
 如果可以拆分成多个文件，则各自负责开发自己的部分。每次进行提交前先执行一次Update。
 
-### 手机端开发
-
-> 手机端开发高保真设计稿宽度为750px
-
-目前的手机项目以rem作为布局的单位。
-
-#### rem
-
-rem（font size of the root element）是指相对于 **根元素** 的字体大小的单位。简单的说它就是一个相对单位。网页中的根元素指的是html我们通过设置html的字体大小就可以控制rem的大小。举个例子：
-
-	html{
-		font-size:20px;
-	}
-	.btn {
-		width: 6rem;
-		height: 3rem;
-		line-height: 3rem;
-		font-size: 1.2rem;
-		display: inline-block;
-		background: #06c;
-		color: #fff;
-		border-radius: .5rem;
-		text-decoration: none;
-		text-align: center;    
-	}
-	
-按钮大小为：
-	
-![image](https://github.com/dingangang/web-/blob/master/btn.jpg?raw=true)
-
-我把html设置成10px是为了方便我们计算，为什么6rem等于60px。如果这个时候我们的.btn的样式不变，我们再改变html的font-size的值，看看按钮发生上面变化:
-	html{
-		font-size:40px;
-	}
-	
-按钮大小变为：
-
-![image](https://github.com/dingangang/web-/blob/master/btn1.jpg?raw=true)
-
-上面的width，height变成了上面结果的两倍，我们只改变了html的font-size，但.btn样式的width,height的rem设置的属性不变的情况下就改变了按钮在web中的大小。
-
-所以在项目中根据屏幕的宽度来适配不同的根元素字体大小从而适配所有的不同的屏幕。如下图所示，通过媒体查询来进行适配。
-
-![image](https://github.com/dingangang/web-/blob/master/rem.jpg?raw=true)
-
-#### 与高保真稿适配
-
-高保真的宽度为750px,通常进行开发时，预先用375px宽度进行开发。此时的根元素font-size指定为20px。（视具体的框架决定，本例中已SUI为讲解）
-
-通过PxCook在高保真稿件中取得的长度（L）换算成在CSS中的rem单位长度（l）:
-
-	l = L / 2 / 20；
-	
-同时在Chrome开发模式下获取的页面宽度（L1）与CSS中的rem单位长度（l）:
-
-	l = L1 / 20;
-
-获取这样的规则以后，在手机端进行开始时可以快速对应。
-
-
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
